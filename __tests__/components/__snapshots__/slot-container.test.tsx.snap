@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: SlotContainer should render  1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#d5d5d5",
+      "height": 355,
+      "justifyContent": "center",
+      "margin": 10,
+      "opacity": 1,
+      "width": 355,
+    }
+  }
+  testID="post-row-1"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+        },
+        Object {
+          "color": "red",
+        },
+      ]
+    }
+  >
+    Slot 1
+ Not Available
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Text>
+      GJ 01 XX XXXX
+    </Text>
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 50,
+          "marginVertical": 10,
+          "width": 50,
+        }
+      }
+    />
+  </View>
+</View>
+`;

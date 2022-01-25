@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen:: ParkingSlot  Match snapshot  1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "width": "100%",
+    }
+  }
+>
+  <View>
+    <Text>
+      Please long press on slot to remove car from parking slot
+    </Text>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "carNumber": "GJ 01 XX XXXX",
+            "exitTime": "2022-01-25T17:59:42+05:30",
+            "id": "id-1",
+            "isEmpty": false,
+            "slotNumber": 1,
+            "time": 1,
+          },
+          Object {
+            "carNumber": "GJ 02 XX XXXX",
+            "exitTime": "2022-01-25T17:59:42+05:30",
+            "id": "id-2",
+            "isEmpty": true,
+            "slotNumber": 2,
+            "time": 2,
+          },
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      testID="slot-flatlist"
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#d5d5d5",
+                  "height": 355,
+                  "justifyContent": "center",
+                  "margin": 10,
+                  "opacity": 1,
+                  "width": 355,
+                }
+              }
+              testID="post-row-0"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "color": "red",
+                    },
+                  ]
+                }
+              >
+                Slot 1
+ Not Available
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                  }
+                }
+              >
+                <Text>
+                  GJ 01 XX XXXX
+                </Text>
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "height": 50,
+                      "marginVertical": 10,
+                      "width": 50,
+                    }
+                  }
+                />
+              </View>
+            </View>
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#d5d5d5",
+                  "height": 355,
+                  "justifyContent": "center",
+                  "margin": 10,
+                  "opacity": 1,
+                  "width": 355,
+                }
+              }
+              testID="post-row-1"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "color": "green",
+                    },
+                  ]
+                }
+              >
+                Slot 2
+ Available
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`Screen:: ParkingSlot  Render empty list  1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      testID="empty-slots"
+    >
+      Please create parking slot
+    </Text>
+  </View>
+</View>
+`;

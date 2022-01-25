@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen: CreateLot  renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "flex": 1,
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="number-pad"
+    onChangeText={[Function]}
+    placeholder="Enter parking slot"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "borderWidth": 1,
+          "height": 40,
+          "marginVertical": 12,
+          "padding": 10,
+        },
+        Object {
+          "marginHorizontal": 10,
+        },
+      ]
+    }
+    testID="CreateLot.inputPlot"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#246EE9",
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+      testID="idBtnCreateSlot"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "textAlign": "center",
+          }
+        }
+      >
+        Create
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#246EE9",
+          "marginHorizontal": 10,
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+      testID="idBtnResetSlot"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "textAlign": "center",
+          }
+        }
+      >
+        Reset Slot
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#246EE9",
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+      testID="idBtnViewSlot"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "textAlign": "center",
+          }
+        }
+      >
+        View Slot
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Object {
+          "backgroundColor": "black",
+          "height": 1,
+          "marginVertical": 25,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Object {
+          "paddingHorizontal": 20,
+        },
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="characters"
+      keyboardType="default"
+      onChangeText={[Function]}
+      placeholder="Enter car no"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "borderWidth": 1,
+          "height": 40,
+          "marginVertical": 12,
+          "padding": 10,
+        }
+      }
+      testID="CreateLot.inputCarNo"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#246EE9",
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+      testID="idBtnEnterCar"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "textAlign": "center",
+          }
+        }
+      >
+        Enter Car
+      </Text>
+    </View>
+  </View>
+</View>
+`;

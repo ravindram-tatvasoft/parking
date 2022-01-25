@@ -6,6 +6,7 @@
 import { BottomTabScreenProps } from '@react-navigation/bottom-tabs';
 import { CompositeScreenProps, NavigatorScreenParams } from '@react-navigation/native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { PaymentRouteType } from './types/payment-route-type';
 
 declare global {
   namespace ReactNavigation {
@@ -17,6 +18,11 @@ export type RootStackParamList = {
   Root: NavigatorScreenParams<RootTabParamList> | undefined;
   Modal: undefined;
   NotFound: undefined;
+  TabTwoScreen: undefined;
+  TabOneScreen: undefined;
+  CreateLotScreen: undefined;
+  ParkingSlotScreen: undefined;
+  PaymentScreen: PaymentRouteType
 };
 
 export type RootStackScreenProps<Screen extends keyof RootStackParamList> = NativeStackScreenProps<
